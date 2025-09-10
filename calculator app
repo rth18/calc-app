@@ -1,0 +1,40 @@
+"""
+fuction function_name(args) {
+    statements....
+}
+"""
+
+"""
+def function_name(args):
+ statements....
+ """
+def add(a,b):
+     return a + b
+ 
+def mul(a,b):
+     return a*b
+print(mul(2,2))
+
+def sub(a,b):
+    return a/b
+print(sub(20,5))
+
+def sub(a,b):
+    return a-b
+print(sub(20,10))
+
+operation = input("provide operation")
+num1 = int(input("enter number 1: "))
+num2 =int(input("enter number 2: "))
+
+if operation == "+":
+   print(add(num1,num2))
+elif operation == "-":
+    print(sub(num1,num2))
+elif operation == "/":
+    print(div(num1,num2))
+elif operation ==  "*":
+     print(mul(num1,num2))
+else:
+    print("invalid operation")
+    
